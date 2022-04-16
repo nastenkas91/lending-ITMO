@@ -1,0 +1,16 @@
+.card-about__header {
+  margin: 0 24px 12px 16px;
+  padding: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #001337;
+  height: 57px;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,9 @@
+.card-about__date {
+  margin: 16px 24px 8px 16px;
+  padding: 0;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 145%;
+  color: #009FAC;
+}

@@ -1,0 +1,17 @@
+.menu__link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #fff;
+  text-decoration: none;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  opacity: 1;
+}
+
+.menu__link:hover {
+  background: #001337;
+  cursor: pointer;
+}
+

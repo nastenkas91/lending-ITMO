@@ -1,0 +1,29 @@
+.lab__card {
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+  background: white;
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5.45566px
+}
+
+.lab__card:hover {
+  background: #009FAC;
+}
+
+.lab__card:hover .lab__card-name {
+  color: white;
+}
+
+.lab__card:hover .lab__card-text {
+  color: white;
+}
+
+.lab__card:hover .lab__card-button {
+  color: #009FAC;
+  background: #FFFFFF;
+  border-radius: 5px;
+  border: 1px solid #009FAC;
+}

@@ -1,0 +1,4 @@
+.lab__about-container {
+  display: flex;
+  flex-direction: column;
+}

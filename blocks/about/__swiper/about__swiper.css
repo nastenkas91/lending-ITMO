@@ -1,0 +1,28 @@
+.about__swiper-pagination {
+  position: absolute;
+  bottom: 54px;
+  left: 50%;
+}
+
+.about-swiper__bullet {
+  display: inline-block;
+  border-radius: 50%;
+  background: #fff;
+  opacity: 0.5;
+  width: 4px;
+  height: 4px;
+  margin-right: 4px;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet {
+  display: inline-block;
+  border-radius: 50%;
+  background: #fff !important;
+  width: 4px !important;
+  height: 4px !important;
+  margin-right: 4px;
+}

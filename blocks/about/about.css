@@ -1,0 +1,10 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background: #001337;
+  padding: 2px 0 40px 0;
+  margin: 0 auto;
+  min-height: 443px;
+  position: relative;
+}

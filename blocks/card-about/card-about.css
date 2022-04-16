@@ -1,0 +1,9 @@
+.card-about {
+  background: #E0F0FF;
+  max-width: 288px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  min-height: 250px;
+  position: relative;
+}

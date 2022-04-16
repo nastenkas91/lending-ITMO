@@ -1,0 +1,11 @@
+.menu__link_type_sublink {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  color: #fff;
+}
+
+.menu__link_type_sublink:hover {
+  background: #001337;
+}

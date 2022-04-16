@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+  />
+  <title>ИТМО</title>
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <button id="burger" class="burger-menu-button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="menu invisible">
+        <ul class="menu__links-list">
+          <li><a href="" class="menu__link">О нас</a></li>
+          <li><a href="" class="menu__link">Лаборатория</a></li>
+          <li><a href="" class="menu__link">Проекты</a></li>
+          <li><div class="menu__link menu__link_extendable">Образование</div></li>
+            <ul class="menu__dropdown-content">
+              <li><a href="" class="menu__link menu__link_type_sublink" > Магистратура </a></li>
+              <li><a href="" class="menu__link menu__link_type_sublink">Аспирантура</a></li>
+            </ul>
+          <li><a href="" class="menu__link">Публикации</a></li>
+          <li><a href="" class="menu__link">Команда</a></li>
+          <li><a href="" class="menu__link">Связаться</a></li>
+        </ul>
+      </nav>
+      <img src="./images/Logo.png" alt="логотип" class="header__logo">
+    </header>
+
+    <main>
+
+      <section class="lead">
+        <div class="lead__container">
+          <h1 class="lead__title"><span class="bold">Когнитивные технологии,</span>  машинное обучение</h1>
+          <p class="lead__subtitle">Системы прикладного искусственного интеллекта</p>
+          <button type="button" class="lead__button" aria-label="Наши проекты">НАШИ ПРОЕКТЫ</button>
+        </div>
+      </section>
+
+      <section class="about">
+        <h2 class="about__header">НЕСКОЛЬКО СЛОВ О НАС</h2>
+        <p class="about__text">Национальный центр когнитивных разработок – центр национальной технологической инициативы
+          (НТИ), получивший государственную поддержку по направлению «Технологии машинного обучения
+          и когнитивные технологии».</p>
+        <div class="about__swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+
+            <!-- Slides -->
+            <div class="card-about swiper-slide">
+              <div class="card-about__pin"></div>
+              <p class="card-about__date">Понедельник, 5 июля 2021г</p>
+              <h3 class="card-about__header">ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬНОГО</h3>
+              <p class="card-about__text">Университет ИТМО провел научно-исследовательскую стажировку для группы
+                магистрантов из Евразийского национального университета имени Л.Н. Гумилева. Ведущие преподаватели  в
+                течение десяти дней рассказывали им об основах машинного обучения. </p>
+            </div>
+
+            <div class="card-about swiper-slide">
+              <div class="card-about__pin"></div>
+              <p class="card-about__date">Понедельник, 5 июля 2021г</p>
+              <h3 class="card-about__header">АВТОРЫ РОБОТА-МУЗЫКАНТА РОБЕРТА РОБОТЕЦКОГО ПРИЗНАНЫ ЛУЧШИМИ НОВИЧКАМИ</h3>
+              <p class="card-about__text">Команда ИТМО стала лучшей на международном финале RoboCup-2021. Успех
+                ребятам принес Роберт Роботецкий — робот-виртуоз, исполнивший знаменитый французский романс «Под
+                небом Парижа». В подготовке команды участвовали сотрудники лаборатории.</p>
+            </div>
+
+            <div class="card-about swiper-slide">
+              <div class="card-about__pin"></div>
+              <p class="card-about__date">Суббота, 3 июля 2021г</p>
+              <h3 class="card-about__header">ВОЗВРАЩЕНИЕ НА ПЕТРОПАВЛОВКУ: КАК ПРОШЕЛ ВЫПУСКНОЙ ITMO. LIVE — 2021</h3>
+              <p class="card-about__text">Команда ИТМО сделала многое, чтобы вернуть формат выпускного этого и
+                прошлого года. Из-за эпидемиологической ситуации отменена развлекательная часть, но сохранилась
+                торжественная. Выпускники смогли получить дипломы из рук деканов и услышать поздравления ректора.</p>
+            </div>
+
+            <div class="card-about swiper-slide">
+              <div class="card-about__pin"></div>
+              <p class="card-about__date">Пятница, 2 июля 2021г</p>
+              <h3 class="card-about__header">«LEAVING THE DIGITAL» — ИЛИ КАК СОЕДИНИТЬ ЦИФРОВОЕ, ТЕХНОЛОГИЧЕСКОЕ И
+                БИОЛОГИЧЕСКОЕ</h3>
+              <p class="card-about__text">Преподаватели центра Art & Science Университета ИТМО провели открытый
+                воркшоп, посвященный созданию произведений, объединяющих в себе биологическую и синтетическую среды.
+                Серия занятий приурочена к приемной кампании в магистратуру центра.</p>
+            </div>
+
+            <div class="card-about swiper-slide">
+              <div class="card-about__pin"></div>
+              <p class="card-about__date">Пятница, 2 июля 2021г</p>
+              <h3 class="card-about__header">В ИТМО ЗАПУСКАЕТСЯ ПЕРВАЯ ПРОЕКТНАЯ МАГИСТРАТУРА — ДЛЯ АБИТУРИЕНТОВ
+                ФАКУЛЬТЕТА П…</h3>
+              <p class="card-about__text">Особенность нового формата магистратуры в том, что студенты смогут
+                составлять программу своего обучения, выбирать только те курсы, которые им интересны, а главное —
+                работать над технологически сложным проектом под руководством менторов из топовых IT-компаний.</p>
+            </div>
+
+            <div class="card-about swiper-slide">
+              <div class="card-about__pin"></div>
+              <p class="card-about__date">Пятница, 2 июля 2021г</p>
+              <h3 class="card-about__header">КОГДА НЕ ЗАНИМАЕШЬСЯ СВОИМ ОБРАЗОВАНИЕМ, МОЖНО ПРИЙТИ К СОСТОЯНИЮ</h3>
+              <p class="card-about__text">Владислав Танков поступил в ИТМО будучи специалистом в компании JetBrains.
+                На одном из хакатонов в рамках программы с JetBrains он сделал плагин для проверки грамотности
+                текстов в среде разработки IntelliJ IDEA. После окончания магистратуры Владислав возглавил команду
+                разработки.</p>
+            </div>
+
+            <div class="card-about swiper-slide">
+              <div class="card-about__pin"></div>
+              <p class="card-about__date">Четверг, 1 июля 2021г</p>
+              <h3 class="card-about__header">СТУДЕНТЫ ИТМО И ВЫПУСКНИКИ ЛЭТИ РАЗРАБОТАЛИ МОДУЛЬ ДЛЯ БЫСТРОЙ ЗАРЯДКИ</h3>
+              <p class="card-about__text">Интеллектуальный модуль для станций зарядки позволяет заряжать накопители в
+                электрокарах и электросамокатах быстрее, чем при питании от сети. Программное обеспечение модуля
+                обеспечивает защиту в случае аварийных ситуаций и повышает эффективность всего зарядного устройства.</p>
+            </div>
+
+            <div class="card-about swiper-slide">
+              <div class="card-about__pin"></div>
+              <p class="card-about__date">Четверг, 1 июля 2021г</p>
+              <h3 class="card-about__header">КАКИЕ СУЩЕСТВУЮТ ВАКЦИНЫ, КАК ИХ ИСПЫТЫВАЮТ, И ПО КАКИМ ПРИНЦЫПАМ ИХ
+                СЛЕДУЕТ ВЫБИРАТЬ</h3>
+              <p class="card-about__text">Вакцинация от коронавируса стала одной из главных тем. Весь мир следит за
+                количеством привитых. Прививочная кампания дает результат — снижается смертность, количество
+                госпитализаций. Но вокруг вакцинации остается много мифов, которые вызывают у скептиков споры.</p>
+            </div>
+
+            <div class="card-about swiper-slide">
+              <div class="card-about__pin"></div>
+              <p class="card-about__date">Среда, 30 июня 2021г</p>
+              <h3 class="card-about__header">УНИВЕРСИТЕТ ИТМО ЗАПУСКАЕТ НОВУЮ КОРПОРАТИВНУЮ СПЕЦИАЛИЗАЦИЮ В
+                МАГИСТРАТУРЕ</h3>
+              <p class="card-about__text">Партнером нового направления станет Napoleon IT. Сотрудники компании и
+                преподаватели ИТМО будут готовить магистров, которые смогут работать в проектах, связанных с
+                распознаванием лиц, технологиями deepfake, созданием приложений для распознавания предметов.</p>
+            </div>
+
+            <div class="card-about swiper-slide">
+              <div class="card-about__pin"></div>
+              <p class="card-about__date">Среда, 30 июня 2021г</p>
+              <h3 class="card-about__header">СТУДЕНТКА И СОТРУДНИЦА ИТМО АННА ВОЛОШИНА ПОЛУЧИЛА БРОНЗОВОГО СФИНКСА</h3>
+              <p class="card-about__text">В Петропавловской крепости состоялась торжественная церемония вручения
+                наград лучшим выпускникам Санкт-Петербурга. Среди тех, кто получил памятную статуэтку, была
+                выпускница факультета технологического менеджмента и инноваций Анна Волошина. </p>
+            </div>
+
+          </div>
+        </div>
+        <div class="about__swiper-pagination">
+          <div class="about-swiper__pagination"></div>
+        </div>
+      </section>
+
+      <section class="lab">
+        <h2 class="lab__header">INDUSTRIAL AI RESEARCH LAB</h2>
+        <div class="lab__about-container">
+          <img src="./images/Lab/image%2035.png" alt="" class="lab__about-pic">
+          <p class="lab__about-text">Центр национальной технологической инициативы (НТИ), получивший государственную
+            поддержку по направлению «Технологии машинного обучения
+            и когнитивные технологии». </p>
+          <p class="lab__about-text">Мы изучаем проблемы и выявляем, когда мы работаем вместе с нашими клиентами,
+            новые решения находят, не задумываясь. Работая таким образом и проявляя гибкость, мы можем поддерживать
+            новый подход для удовлетворения потребностей наших клиентов.</p>
+        </div>
+        <div class="lab__cards-container">
+
+          <div class="lab__card">
+            <h3 class="lab__card-name">Анализ социальных данных</h3>
+            <div class="lab__card-pic-circle">
+            <img src="./images/Lab/analisys.svg" alt="" class="lab__card-pic">
+            </div>
+            <p class="lab__card-text">Направление включает в себя исследования
+              и разработки технологий МО и КТ</p>
+            <button type="button" class="lab__card-button" aria-label="Подробнее">Подробнее</button>
+          </div>
+
+          <div class="lab__card">
+            <h3 class="lab__card-name">Инфраструктура больших данных</h3>
+            <div class="lab__card-pic-circle">
+            <img src="./images/Lab/bigData.svg" alt="" class="lab__card-pic">
+            </div>
+            <p class="lab__card-text">Направление включает в себя исследования
+              и разработки технологий МО и КТ</p>
+            <button type="button" class="lab__card-button" aria-label="Подробнее">Подробнее</button>
+          </div>
+
+          <div class="lab__card">
+            <h3 class="lab__card-name">Облачные
+              вычисления</h3>
+            <div class="lab__card-pic-circle">
+            <img src="./images/Lab/cloud.svg" alt="" class="lab__card-pic">
+          </div>
+            <p class="lab__card-text">Направление включает в себя исследования
+              и разработки технологий МО и КТ</p>
+            <button type="button" class="lab__card-button" aria-label="Подробнее">Подробнее</button>
+          </div>
+
+          <div class="lab__card">
+            <h3 class="lab__card-name">QA
+              истемы</h3>
+            <div class="lab__card-pic-circle">
+            <img src="./images/Lab/QA.svg" alt="" class="lab__card-pic">
+          </div>
+            <p class="lab__card-text">Направление включает в себя исследования
+              и разработки технологий МО и КТ</p>
+            <button type="button" class="lab__card-button" aria-label="Подробнее">Подробнее</button>
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</div>
+<script src="./pages/index.js"></script>
+<script src="./pages/Swiper.js" type="module"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+</body>
+</html>

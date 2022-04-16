@@ -1,0 +1,14 @@
+.menu {
+  background: #000D26;
+  width: 320px;
+  min-height: 428px;
+  box-sizing: border-box;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 3;
+  top: 44px;
+  left: 0;
+  transition: visibility 0.25s ease-in-out;
+}

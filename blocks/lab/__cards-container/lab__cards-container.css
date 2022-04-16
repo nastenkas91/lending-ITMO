@@ -1,0 +1,6 @@
+.lab__cards-container {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(2, auto);
+  gap: 8px;
+}

@@ -1,0 +1,19 @@
+.lead {
+  min-height: 412px;
+  padding: 30px 16px 0 16px;
+  position: relative;
+  box-sizing: border-box;
+}
+.lead::before {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background: url("../../images/Background.png") center;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}

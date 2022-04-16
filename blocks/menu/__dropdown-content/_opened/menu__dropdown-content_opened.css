@@ -1,0 +1,4 @@
+.menu__dropdown-content_opened {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,26 @@
+.header {
+  background: #000D26;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  position: relative;
+  min-height: 24px;
+}
+
+@media screen and (max-width: 480px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 900px) {
+
+}
+
+@media screen and (max-width: 1440px) {
+
+}

@@ -1,0 +1,17 @@
+.header__logo {
+  object-fit: cover;
+  width: 71px;
+  height: 100%;
+  object-position: center;
+  transition: left 0.5s ease-in-out;
+}
+
+.header__logo.open {
+  position: absolute;
+  left: 18px;
+  top: 10px;
+  object-fit: cover;
+  width: 71px;
+  height: 24px;
+  object-position: center;
+}

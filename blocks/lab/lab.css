@@ -1,0 +1,7 @@
+.lab {
+  background: #E0F0FF;
+  margin: 0 auto;
+  padding: 40px 16px;
+  display: flex;
+  flex-direction: column;
+}
